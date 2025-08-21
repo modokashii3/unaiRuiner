@@ -297,9 +297,9 @@ namespace unaiRuiner
                 if (_myTimer >= 0.1f) {
                     _myTimer -= 0.1f;
                     _timerElapsed++;
-                    if (_timerElapsed == 23) {
+                    if (_timerElapsed == 14) {
                         Log.Info($"ToSpecialWing R");
-                        _ruinerOne.ForceAction(Actions.STRONG_RARM_ATATCK_TO_LEFT);
+                        _ruinerOne.ForceAction(Actions.EX_JUMPING_PUNCH);
                     }
                 }
             }
@@ -309,9 +309,9 @@ namespace unaiRuiner
                 if (_myTimer >= 0.1f) {
                     _myTimer -= 0.1f;
                     _timerElapsed++;
-                    if (_timerElapsed == 23)  {
+                    if (_timerElapsed == 14)  {
                         Log.Info($"ToSpecialWing R");
-                        _ruinerOne.ForceAction(Actions.TO_RARM_SIDE_SWING);
+                        _ruinerOne.ForceAction(Actions.EX_JUMPING_PUNCH);
                     }
                 }
             }
